@@ -1,0 +1,285 @@
+body{
+    background-color: azure;
+}
+    .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  }
+ .service-block {
+      padding: 30px 15px;
+    }
+    .service-box {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .service-img {
+      flex: 1 1 40%;
+      max-height: 250px;
+      object-fit: cover;
+      width: 90%;
+    }
+    .service-content {
+      flex: 1 1 60%;
+      padding: 20px;
+    }
+    .service-content h5 {
+      font-weight: bold;
+    }
+    .btn-custom {
+      background-color: #d4a3e4;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    .footer {
+  background-color:#002244;
+  color: #fff;
+  padding: 10px 10px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin: 20px;
+}
+
+.footer-column h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-column p,
+.footer-column a,
+.footer-column li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-column .phone {
+  color: #ffcc00;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a:hover {
+  color: #ffcc00;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+  color: #ccc;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;  /* Couleur à définir selon ton thème */
+}
+.ministry-links {
+  background-color: #1b1b1b;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.ministry-links h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.ministry-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ministry-links li {
+  margin-bottom: 8px;
+}
+
+.ministry-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.ministry-links a:hover {
+  color: #ffcc00;
+}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.footer-dev {
+  background-color: #1a1a1a;
+  color: #eee;
+  padding: 30px 15px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.dev-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.dev-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #ffcc00;
+  transition: transform 0.3s ease;
+}
+
+.dev-photo:hover {
+  transform: scale(1.1) rotate(5deg);
+  cursor: pointer;
+}
+
+.dev-description h3 {margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #ffcc00;
+}
+
+.dev-description p {
+  font-size: 15px;
+  margin: 5px 0 20px 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin: 0 8px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+}
+
+@media (min-width: 600px) {
+  .dev-container {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+  .dev-photo {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+.fonctionnalites-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.fonctionnalites-section h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #f2f6fa;
+}
+
+.fonctionnalite-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background:white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card i {
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #002244;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* Pour les écrans de bureau */
+@media (min-width: 1200px) {
+    .fonctionnalite-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Pour les tablettes */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .fonctionnalite-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Pour les téléphones */
+@media (max-width: 767px) {
+    .fonctionnalite-grid {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        padding: 15px;
+    }
+    .fonctionnalites-section h2 {
+        font-size: 24px;
+    }
+    .card h3 {
+        font-size: 16px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+}
+
